@@ -62,8 +62,11 @@ div.totheright{
   border-left: 1px solid gray;
   padding: 1em;
 }
-table{
-  padding-left: 100px;
+table,tr,td{
   border-width: 0px;
   border-style: solid;
+}
+th{
+
+  text-align: center;
 }
