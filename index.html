@@ -6,64 +6,109 @@
   <title>CMPS 294 Assignment 2</title>
 </head>
 <body>
-  <h1>Tea House</h1>
+  <h1>Chillax</h1>
   <div class="header"><br>
     <p>
-      Tea house, this is where people come and enjoy a cup of tea, so if it is your cup of tea then come and join us!
+      Whether you like teas, whishkeys, or beers, we have it all at Chillax. Come and Chillax with us!
     </p>
   </div><hr>
-  <div class="container">
 
-      <img id="image1" src="http://images.agoramedia.com/everydayhealth/gcms/6-best-teas-for-arthritis-symptoms-722x406.jpg?width=623" alt="tea pic" />
-      <input id="additem" type="radio" name="add" value="Add item">Add this item to cart
-      <div class="totheright">
-          <p>
-            Item
-          </p>
-          <p>
-            This is tea
-          </p>
-          <p>
-            Price: $200
-          </p>
-          <form class="form1">
+  <div class="container">
+    <div class="div1">
+      <img id="image" src="http://images.agoramedia.com/everydayhealth/gcms/6-best-teas-for-arthritis-symptoms-722x406.jpg?width=623" alt="tea pic" />
+      <form class="" action="index.html" method="post">
+        <input id="additem" type="checkbox" name="add" value="Add item" >Add this item to cart
+      </form>
+      </div>
+      <div class="div2" border="1" >
+        <h3>
+          Tea
+        </h3>
+            <p>
+              We have a wide range of tea from green to black, from caffinated or decaffinated tea.
+            </p>
+            <p>
+              Price: $3-$4
+            </p>
+          <form>
             <input type="radio" name="option" value="Ginger tea">Ginger tea <br>
             <input type="radio" name="option" value="Green tea">Green tea <br>
             <input type="radio" name="option" value="Rose hips">Rose hips <br>
-
           </form>
-      </div>
+        </div>
   </div>
   <hr>
   <div class="container">
-    <p>
-      item2
-    </p>
+    <div class="div1">
+      <img id="image" src="https://top5ofanything.com/uploads/2015/02/American-Whiskey.jpg" alt="whiskey" />
+      <form  action="http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
+        <input id="additem" type="checkbox" name="add" value="Add item" >Add this item to cart
+      </form>
+      </div>
+      <div class="div2" border="1" >
+        <h3>
+          Whiskeys
+        </h3>
+            <p>
+              Jack, Jim or Captain Morgan we have them all here.
+            </p>
+            <p>
+              Price: $20-$100
+            </p>
+          <form>
+              <select name="whiskeys">
+                <option value="Jack Daniel's">Jack Daniel's</option><br>
+                <option value="Jim Beam">Jim Beam</option><br>
+                <option value="Wild Turkey">Wild Turkey</option><br>
+                <option value="Captain Morgan">Captain Morgan</option>
+              </select>
+          </form>
+        </div>
   </div><hr>
   <div class="container">
-    <p>
-      item3
-    </p>
+    <div class="div1">
+      <img id="image" src="https://media.glassdoor.com/eep/4442/ddd.JPG" alt="beers" />
+      <form action="http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
+        <input id="additem" type="checkbox" name="add" value="Add item" >Add this item to cart
+      </form>
+      </div>
+      <div class="div2" border="1" >
+        <h3>
+          Beers
+        </h3>
+            <p>
+              American or foreign brew, just select and drink.
+            </p>
+            <p>
+              Price: $5
+            </p>
+          <form>
+            <input type="checkbox" name="option" value="Heineken">Heineken <br>
+            <input type="checkbox" name="option" value="Dos Equis">Dos Equis<br>
+            <input type="checkbox" name="option" value="Abita">Abita<br>
+          </form>
+        </div>
   </div><br>
-    <form class="info" action="“http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
+  <div class="customersinfo">
+    <form class="info" action="http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
       <table>
-        <tr id="tr1">
-          <th>
+        <tr>
+          <th colspan="2">
             Shipping information
           </th>
         </tr>
-        <tr id="tr2">
+        <tr>
           <td>Your name:</td>
           <td>
             <input type="text" name="name" value="">
           </td>
-        </tr><tr id="tr3">
+        </tr><tr>
           <td>
             Your phone number:
           </td><td>
-            <input type="text" name="fone number" value="">
+            <input type="text" name="fone number">
           </td>
-        </tr><tr id="tr4">
+        </tr><tr>
           <td>
             Shipping address:
           </td><td>
@@ -71,14 +116,34 @@
           </td>
         </tr>
       </table><br>
-      Should we put you on our mailing list?
-      <input type="radio" name="Yes" value="yes">Yes
-      <input type="radio" name="No" value="no">No
-    </form><br>
-    <form class="submit" action="“http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
-      Message or any particular instruction:<br>
-      <textarea name="name" rows="5" cols="40"></textarea><br><br>
-      <button type="button" name="button">Submit</button>
-    </form>
+  </div>
+  <div class="bot">
+    Should we put you on our mailing list?
+  <form>
+  <input type="radio" name="option" value="yes">Yes
+  <input type="radio" name="option" value="no">No
+</form>
+  </div>
+<div class="footer">
+  <form action="http://cs-sun2000.uscupstate.edu/~student1/cgi-bin/echo.cgi" method="post">
+    <table>
+      <tr>
+        <td>
+          Message or any particular instruction:<br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <textarea name="text"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="button" name="name" value="submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+</div>
 </body>
 </html>
