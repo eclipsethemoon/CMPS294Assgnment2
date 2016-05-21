@@ -1,21 +1,23 @@
 body{
-  background-color:;
+  background-color:#bfbff2;
 }
 h1{
   text-align: center;
+  color: inherit;
 }
 hr{
 	width: 450px;
 }
 
-.header{
+div.header{
   border-style: solid;
   border-width: 1px;
 }
-.header p{
+div.header p{
   font-style: italic;
   font-family: "Lucida Handwriting", cursive;
   text-align: center;
+  padding-bottom: 10px;
 }
 #intro{
   padding-bottom: 20px;
@@ -23,16 +25,19 @@ hr{
 .container{
 	border-style: solid;
 	border-width: 1px;
-	width: 95%;
+	width: 80%;
 	margin: 0 auto;
 
 }
-#additem{
-  float: ;
+div.div1{
+  float: left;
+  width: auto;
+  margin: auto;
+  padding-left: 20%;
 }
-.itme > tr{
-  border-width: 1px;
-  border-style: solid;
+div.div2{
+  padding-left: 65%;
+  padding-bottom: 50px;
 }
 .info{
 	margin: auto;
@@ -40,30 +45,32 @@ hr{
   /*border: 3px solid #73AD21;*/
   padding-left: 10px;
 }
-#image1{
-  width: 250px;
-  height: 200px;
-  padding-left: 80px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.submit{
-	float:left;
+#image{
+  width: 200px;
+  height: 150px;
+  margin: auto;
+  padding-right: 60px;
+  padding-top: 20px;
 
 }
 textarea{
-	width: 100%;
+	width: 400px;
   height: 150px;
-  padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
   resize: none;
 }
-div.totheright{
-  margin-left: 500px;
-  border-left: 1px solid gray;
-  padding: 1em;
+.customersinfo table{
+  padding-left: 25%;
 }
+<<<<<<< HEAD
 table{
+=======
+.bot{
+  padding-left: 30%;
+}
+.footer{
+  padding-left: 10%;
+>>>>>>> origin/master
 }
