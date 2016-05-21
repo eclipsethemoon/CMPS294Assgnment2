@@ -17,6 +17,9 @@ hr{
   font-family: "Lucida Handwriting", cursive;
   text-align: center;
 }
+#intro{
+  padding-bottom: 20px;
+}
 .container{
 	border-style: solid;
 	border-width: 1px;
@@ -62,11 +65,5 @@ div.totheright{
   border-left: 1px solid gray;
   padding: 1em;
 }
-table,tr,td{
-  border-width: 0px;
-  border-style: solid;
-}
-th{
-
-  text-align: center;
+table{
 }
